@@ -4,9 +4,5 @@ class CreateSongGenres < ActiveRecord::Migration[5.2]
       t.integer :song_id
       t.integer :genre_id
     end
-
-    def down 
-      drop_table :song_genres 
-    end
   end
 end
