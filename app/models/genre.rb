@@ -7,4 +7,5 @@ class Genre < ActiveRecord::Base
 
     include Slugifiable::InstanceMethod
     extend Slugifiable::ClassMethod
+
 end
